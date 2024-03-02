@@ -1,6 +1,10 @@
-
+# MVPinny for Sitecore
+![go horse](docs/images/Gohorse-300x300.png)<br/>
 ## Team name
 ⟹ Go Horse
+  - Anderson Fortaleza
+  - José Neto
+  - Rodrigo Peplau
 
 ## Category
 ⟹ Best use of AI
@@ -64,7 +68,7 @@ You will see the following Fields "OpenIA Key" and "model" Type your OpenAPI Key
 ![alt text](docs/images/image-10.png)<br/>
 
 10. Permanently add the extension to your toolbar.<br/>
-Once you click "Extension button" add add the "MVP Pinny for Sitecore"(By Go Horse), <br/>
+Once you click "Extension button" add the "MVP Pinny for Sitecore"(By Go Horse), <br/>
 you will see the plugin on your bar<br/>
  ![alt text](docs/images/image-8.png)<br/>
 
@@ -72,9 +76,10 @@ you will see the plugin on your bar<br/>
 The critical setup involves the selection of both the "OpenAI Key" and the "model." However, there were already configured in previous steps<br> If necessary, these selections can be modified by right-clicking on the "Mvp Pinny" logo in the Extensions bar and selecting options.
 
 ## Usage instructions
-1. Open Sitecore ex: https://portal.sitecorecloud.io<br/>
+1. Open Sitecore ex: https://cm.sitecore.com.localhost or XM Cloud https://portal.sitecorecloud.io<br/>
 2. Click Extensions, on the "Go-Horse-Icon"<br/>
 3. Mouse over the selected function or type or questions<br/>
+![alt text](docs/images/sitecore10.png)
 ![alt text](docs/images//mvppinny.png)
 
 
