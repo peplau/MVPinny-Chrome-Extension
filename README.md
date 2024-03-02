@@ -1,10 +1,10 @@
 # MVPinny for Sitecore
 ## Team name
 ⟹ Go Horse
-![go horse](docs/images/Gohorse-300x300.png)<br/>
   - Anderson Fortaleza
   - José Neto
   - Rodrigo Peplau
+![go horse](docs/images/Gohorse-300x300.png)<br/>
 
 ## Category
 ⟹ Best use of AI
