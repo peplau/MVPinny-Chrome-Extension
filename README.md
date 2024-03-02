@@ -13,7 +13,7 @@
 
 ## Description
   - Module Purpose: 
-    - AI chat assistant specifically designed for content editors working with Sitecore. Its primary purpose is to facilitate a comprehensive understanding of Sitecore features on the fly. Users can inquire about any aspect of the tool, and it is  connected to MVPinny, an AI model specialized in Sitecore, skillfully developed by the Go Horse Team.
+    - AI chat assistant specifically designed for Sitecore users. Its primary purpose is to facilitate a comprehensive understanding of Sitecore features on the fly. Users can inquire about anything they see on screen, and the answers are powered by MVPinny, an AI model specialized in Sitecore.
 
   - How it works
     - A Chrome extension that assists content editors by integrating Sitecore with the MVPinny chatbot. It aids content authors by directly delivering answers to their questions.
