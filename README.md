@@ -82,4 +82,4 @@ The critical setup involves the selection of both the "OpenAI Key" and the "mode
 3. Mouse over the selected function or type or questions<br/>
 
 ## Comments
-If you'd like to make additional comments that is important for your module entry.<br/>
+The Go Horse team presents an innovative solution with their Chrome extension module for content editors working with Sitecore. This tool, serving as a chat assistant, seamlessly integrates artificial intelligence, specifically MVP Pinny, to provide comprehensive support for Sitecore functionalities. The installation process is user-friendly, with step-by-step instructions and visual aids. Additionally, the configuration and usage instructions are well-documented, ensuring a smooth experience for content authors. Overall, the Go Horse team showcases a well-designed and practical solution for enhancing the efficiency of content editing in Sitecore.
