@@ -22,7 +22,14 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
             path: "sidepanel.html",
             enabled: true,
         });
-        chrome.sidePanel.open({ tabId: sender.tab.id });
+
+        chrome.sidePanel.open({ tabId: sender.tab.id },
+            () => {
+                chrome.runtime.sendMessage({
+                    message: "openGtpSidePanel"
+                })
+            }
+        );
     }
 });
 
