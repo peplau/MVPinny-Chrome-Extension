@@ -6,16 +6,16 @@
   - José Neto
   - Rodrigo Peplau
 
-![Go Horse](docs/images/Gohorse-300x300.png)<br/>
+![Go Horse](docs/images/Gohorse-300x300.png)
 
 ## Category
 ⟹ Best use of AI
 
 ## Description
-  - Module Purpose: <br/>
+  - Module Purpose: 
     - This tool serves as a chat assistant specifically designed for content editors working with Sitecore. Its primary purpose is to facilitate a comprehensive understanding of Sitecore features on the fly. Users can inquire about any aspect of the tool, and it is  connected to MVPinny, an AI model specialized in Sitecore, skillfully developed by the Go Horse Team.
 
-  - How it works<br/>
+  - How it works
     - This Chrome extension assists content editors by integrating Sitecore with the MVPinny AI. It aids content authors by directly delivering answers to their questions.
 
 ## Video link
@@ -25,68 +25,66 @@
 ## Pre-requisites and Dependencies
 
 - Chrome Browser 
-- Compatible with any Sitecore version (XP, XM and XM Cloud)
+- Compatible with any Sitecore version (XP, XM, and XM Cloud)
 
 ## Installation instructions
 
 1. Install Chrome Browser
 
-2. Clone this repository, or download the ZIP and uncompress it <br/>
+2. Clone this repository, or download the ZIP and uncompress it 
 
 3.  Open Google Chrome
 
-4.  Navigate to the Chrome Extensions Management Page <br/>
+4.  Navigate to the Chrome Extensions Management Page 
 In the address bar, type the expression below and press Enter.
 ```extensions
 chrome://extensions/
 ```
-<br/>
 
-5. Enable Developer Mode<br/>
-In the top-right corner of the Extensions page, toggle the "Developer mode"<br/>
-switch to the ON position.<br/>
 
-![alt text](docs/images/image-1.png)<br/>
+5. Enable Developer Mode
+In the top-right corner of the Extensions page, toggle the "Developer mode"
+switch to the ON position.
 
-6. Click on the "Load unpacked" button.<br/>
+![alt text](docs/images/image-1.png)
 
-![alt text](docs/images/image-2.png)<br/>
+6. Click on the "Load unpacked" button.
 
-7. Select Extension Folder<br/>
+![alt text](docs/images/image-2.png)
 
-A file dialog will appear. Navigate to the folder where your locally hosted extension is located, navigate to the "gohorse-chrome-extension", then click "Select Folder" or "Open."<br/>
+7. Select Extension Folder
 
-![alt text](docs/images/image-3.png)<br/>
+A file dialog will appear. Navigate to the folder where your locally hosted extension is located, navigate to the "gohorse-chrome-extension", then click "Select Folder" or "Open."
 
-8. Now you should see the "MVP for Sitecore Settings"<br/>
+![alt text](docs/images/image-3.png)
 
-Fill the "OpenIA Key" field with your OpenAI API Key, and select the "model", then click "Save"<br/>
+8. Now you should see the "MVP for Sitecore Settings"
 
-![alt text](docs/images/image-9.png)<br/>
+Fill the "OpenIA Key" field with your OpenAI API Key, select the "model", then click "Save"
 
-⟹ If you don't have an API KEY, click on the document below <br/>
-- [Creating API Key instructions](CreatingAPIkey.md)<br/>
+![alt text](docs/images/image-9.png)
 
-⟹ Your OpenAI account must support the gpt-4, if it doesn't select the gtp-3.5
+⟹ If you don't have an API KEY, click on the document below 
+- [Creating API Key instructions](CreatingAPIkey.md)
 
-9. Make sure you can see the module listed on chrome extensions page<br/>
-![alt text](docs/images/image-10.png)<br/>
+⟹ To use model "gpt-4", your OpenAI account must support ChatGPT 4. If it doesn't, you can use the model "gpt-3.5-turbo"
 
-10. For your convenience, pin the extension to your toolbar. Once you click "Extension button" add the "MVP Pinny for Sitecore"(By Go Horse), <br/>
+9. Make sure you can see the module listed on the Chrome Extensions page
+![alt text](docs/images/image-10.png)
 
-you will see the plugin on your bar<br/>
+10. For your convenience, pin the extension to your toolbar.
 
- ![alt text](docs/images/image-8.png)<br/>
+ ![alt text](docs/images/image-8.png)
 
 ### Configuration
 The critical setup involves the selection of both the "OpenAI Key" and the "model." However, they were already configured in previous steps.<br> If necessary, these selections can be modified by right-clicking on the "MVPinny" logo in the Extensions bar and selecting Options.
 
-![Options](docs/images/Options.png)<br/>
+![Options](docs/images/Options.png)
 
 
 ## Usage instructions
 
-1. Open your Sitecore CM instance - Eg: https://cm.sitecore.com.localhost or XM Cloud https://portal.sitecorecloud.io <br/>
+1. Open your Sitecore CM instance - Eg: https://cm.sitecore.com.localhost or XM Cloud https://portal.sitecorecloud.io 
 
 2. Browse the page you want to learn more, then click the Go Horse icon
 
