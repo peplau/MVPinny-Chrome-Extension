@@ -1,5 +1,4 @@
 chrome.runtime.onMessage.addListener((data, sender) => {
-console.log("HelllouuuuuuuuUU");
     if (data.message === "actionClickedInSitecore")
         toggleHover();
 });
@@ -76,11 +75,6 @@ function toggleHover() {
     if (isHoverFeatureActive)
         alert("Select the element you want to learn more");
 }
-
-console.log('Adding chrome.action.onClicked.addListener');
-
-// Listen for keydown events on the entire document
-// document.addEventListener("keydown", toggleHoverOnShortcut, false);
 
 /* 
 ---------------------------
