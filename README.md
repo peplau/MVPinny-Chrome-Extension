@@ -44,10 +44,24 @@
  
 for example:
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ...
-3. profit
-
+1. Install Chrome Browser
+2. Download the GoHorse Chrome Extension on the url below 
+ "https://github.com/Sitecore-Hackathon/2024-Go-Horse/tree/main/gohorse-chrome-extension" your local
+3.  Open Google Chrome
+Launch the Google Chrome browser on your computer.
+4.  Navigate to the Chrome Extensions Management Page
+In the address bar, type "chrome://extensions/" and press Enter.
+5. Enable Developer Mode
+In the top-right corner of the Extensions page, toggle the "Developer mode" switch to the ON position.
+6. Locate and Click "Load Unpacked"
+After enabling Developer mode, you will see additional options.
+Click on the "Load unpacked" button.
+7. Select Extension Folder
+A file dialog will appear. Navigate to the folder where your locally hosted extension is located.
+Select the folder containing your extension and click "Select Folder" or "Open."
+8. Now you should see the "MVP for Sitecore
+You will see the following Fields "OpenIA Key" and "model" Type your OpenAPI Key and click "Save"
+![alt text](image.png)
 ### Configuration
 ⟹ If there are any custom configuration that has to be set manually then remember to add all details here.
 
