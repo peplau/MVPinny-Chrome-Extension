@@ -1,9 +1,6 @@
 chrome.runtime.onMessage.addListener((data, sender) => {
-    console.log("GOT MESSAGE");
     if (data.message === "actionClickedInSitecore")
         toggleHover();
-    else if (data.message === "actionClickedNotSitecore")
-        alert("This extension doesn't work on this context");
 });
 
 /* 

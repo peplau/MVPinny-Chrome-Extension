@@ -36,9 +36,6 @@ chrome.action.onClicked.addListener(function (tab) {
         });
     }
     else {
-        chrome.tabs.sendMessage(tab.id, {
-            message: "actionClickedNotSitecore",
-            options: {}
-        });
+        console.log("Extension doesn't work in this context");
     }
 });

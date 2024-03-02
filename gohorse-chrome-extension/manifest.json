@@ -10,7 +10,8 @@
     "content_scripts": [
       {
         "matches": [
-          "https://*/"
+          "*://*/*/sitecore/*",
+          "*://*.sitecorecloud.io/*"
         ],
         "js": ["content.js"]
       }
