@@ -72,9 +72,10 @@ you will see the plugin on your bar<br/>
 The critical setup involves the selection of both the "OpenAI Key" and the "model." However, there were already configured in previous steps<br> If necessary, these selections can be modified by right-clicking on the "Mvp Pinny" logo in the Extensions bar and selecting options.
 
 ## Usage instructions
-1. Open Sitecore ex: https://portal.sitecorecloud.io<br/>
+1. Open Sitecore ex: https://cm.sitecore https://portal.sitecorecloud.io<br/>
 2. Click Extensions, on the "Go-Horse-Icon"<br/>
 3. Mouse over the selected function or type or questions<br/>
+![alt text](docs/images/sitecore10.png)
 ![alt text](docs/images//mvppinny.png)
 
 
