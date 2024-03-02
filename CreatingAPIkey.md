@@ -19,12 +19,23 @@ Visit the OpenAI platform at [OpenAI's website](https://www.openai.com/).
 
 - If API access is not already enabled for your account, follow the prompts to request access. This may involve agreeing to terms and conditions.
 
-## Step 5: Create a New API Key
-
+## Step 5: Create a New API Key 
+- Make sure you are in "https://platform.openai.com/api-keys"
 - In the API section, look for an option to create a new API key.
 - Click on this option and follow the instructions. You may need to provide a name or description for the API key.
+![alt text](image-4.png)
 
 ## Step 6: Copy Your API Key
 
 - After generating the API key, a unique string of characters will be displayed.
 - **Copy the API key to a secure location**. You will need this key to authenticate and make requests to the ChatGPT API.
+
+## Step 7: Make sure you have the free API or buy some credits
+If you created your account a long time ago, you might not be elegible to use the API for free anymore, like the image below 
+![alt text](image-5.png)
+
+In this case , click "Increase Limit" go to next page and upgrade your account to a Paid One 
+![alt text](image-6.png)
+
+Add 10 Dollars to your account it will be enough to play for a log time
+![alt text](image-7.png)

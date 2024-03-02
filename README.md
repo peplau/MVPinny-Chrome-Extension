@@ -53,6 +53,11 @@ You will see the following Fields "OpenIA Key" and "model" Type your OpenAPI Key
 
 if you don't have an API KEY , click on the document below 
 - [Creating API Key instructions](CreatingAPIkey.md)
+
+9. Permanently add the extension to your toolbar.
+Once you click "Extension button" add add the "MVP Pinny for Sitecore"(By Go Horse), you will see the plugin on your bar
+ ![alt text](image-8.png)
+
 ### Configuration
 ⟹ If there are any custom configuration that has to be set manually then remember to add all details here.
 
