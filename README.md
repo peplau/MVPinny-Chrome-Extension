@@ -19,7 +19,6 @@
     - This Chrome extension assists content editors by seamlessly integrating Sitecore with the MVPinny AI. It aids content authors by directly delivering answers to their questions.
 
 ## Video link
-⟹ Provide a video highlighting your Hackathon module submission and provide a link to the video. You can use any video hosting, file share, or even upload the video to this repository. _Just remember to update the link below_
 
 ⟹ [Video: MVPinny for Sitecore](https://youtu.be/qqNU4hXIuP0)
 
