@@ -1,6 +1,10 @@
-
+# MVP Pinny
+![go horse](docs/images/Gohorse-300x300.png)<br/>
 ## Team name
 ⟹ Go Horse
+  - Anderson Fortaleza
+  - José Neto
+  - Rodrigo Peplau
 
 ## Category
 ⟹ Best use of AI
