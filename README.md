@@ -8,10 +8,10 @@
 ## Description
 ⟹ Write a clear description of your hackathon entry.  
 
-  - Module Purpose : 
+  - Module Purpose : <br/>
   This tool serves as a chat assistant specifically designed for content editors working with Sitecore. Its primary purpose is to facilitate a comprehensive understanding of Sitecore buttons and functionalities. Users can inquire about any aspect, and it is seamlessly connected to MVP Pinny, an AI model specialized in Sitecore, skillfully developed by the Go Horse Team.
 
-  - How it works
+  - How it works<br/>
     - This Chrome extension module resolves and supports content editors by seamlessly integrating Sitecore with artificial intelligence. It aids content authors by directly delivering answers to their questions.
 
 ## Video link
