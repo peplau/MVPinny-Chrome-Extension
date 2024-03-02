@@ -1,4 +1,4 @@
-# MVP Pinny
+# MVPinny for Sitecore
 ![go horse](docs/images/Gohorse-300x300.png)<br/>
 ## Team name
 ⟹ Go Horse
