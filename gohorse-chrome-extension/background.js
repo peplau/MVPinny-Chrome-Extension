@@ -4,7 +4,7 @@ chrome.runtime.onInstalled.addListener(function (details) {
             if (!data.apiKey) {
                 // If the API Key has not been set, open the apiKey.html in a new tab
                 chrome.tabs.create({
-                    url: chrome.runtime.getURL("popup.html"),
+                    url: chrome.runtime.getURL("options.html"),
                 });
             }
         });
