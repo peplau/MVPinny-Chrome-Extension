@@ -74,7 +74,7 @@ There is also another option to open (CTRL+SHIFT+H)<br/>
  ![alt text](/docs/images/image-8.png)<br/>
 
 ### Configuration
-The critical setup involves the selection of both the "OpenAI Key" and the previously chosen "model." it can also be changed by right clicking in the "Mvp Pinny" Logo on the Extensions bar and clicking options. 
+The critical setup involves the selection of both the "OpenAI Key" and the "model." However, there were already configured in previous steps<br> If necessary, these selections can be modified by right-clicking on the "Mvp Pinny" logo in the Extensions bar and selecting options.
 
 ## Usage instructions
 1. Open Sitecore ex: https://cm.chick-fil-a.com.localhost<br/>
