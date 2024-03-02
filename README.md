@@ -49,7 +49,7 @@ Click on the "Load unpacked" button.<br/>
 ![alt text](/docs/images/image-2.png)<br/>
 
 7. Select Extension Folder<br/>
-A file dialog will appear. Navigate to the folder where your locally hosted extension is located.<br/>
+A file dialog will appear. Navigate to the folder where your locally hosted extension is located, in this case "gohorse-chrome-extension" folder<br/>
 Select the folder containing your extension and click "Select Folder" or "Open."<br/>
 ![alt text](/docs/images/image-3.png)<br/>
 
