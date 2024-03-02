@@ -22,10 +22,10 @@
 
 ⟹ [Video: MVPinny for Sitecore](https://youtu.be/qqNU4hXIuP0)
 
-## Pre-requisites and Dependencies
+## Compatibility
 
-- Chrome Browser 
-- Compatible with any Sitecore version (XP, XM, and XM Cloud)
+- Google Chrome Browser 
+- Sitecore XP, XM, and XM Cloud
 
 ## Installation instructions
 
