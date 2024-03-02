@@ -27,15 +27,8 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 });
 
 chrome.action.onClicked.addListener(function (tab) {
-    var isSitecoreWebsite = tab.url && tab.url.includes("sitecorecloud.io");
-
-    if (isSitecoreWebsite) {
-        chrome.tabs.sendMessage(tab.id, {
-            message: "actionClickedInSitecore",
-            options: {}
-        });
-    }
-    else {
-        console.log("Extension doesn't work in this context");
-    }
+    chrome.tabs.sendMessage(tab.id, {
+        message: "actionClickedInSitecore",
+        options: {}
+    });
 });
