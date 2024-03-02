@@ -91,7 +91,7 @@ The critical setup involves the selection of both the "OpenAI Key" and the "mode
 
 1. Open your Sitecore CM instance - Eg: https://cm.sitecore.com.localhost or XM Cloud https://portal.sitecorecloud.io 
 
-2. Browse the page you want to learn more, then click the Go Horse icon - ![Go Horse icon](gohorse-chrome-extension/images/icon-16.png)
+2. Browse the page you want to learn more, then click the Go Horse icon - ![Go Horse icon](gohorse-chrome-extension/images/icon-128.png)
 
 3. Hover over and click the block that you want to learn details - MVPinny opens in a side panel, providing more details and a list of common questions
    
