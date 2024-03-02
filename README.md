@@ -40,42 +40,43 @@ In the address bar, type "chrome://extensions/" and press Enter.<br/>
 In the top-right corner of the Extensions page, toggle the "Developer mode"<br/>
 switch to the ON position.<br/>
 
-![alt text](/docs/images/image-1.png)<br/>
+![alt text](docs/images/image-1.png)<br/>
 
 6. Locate and Click "Load Unpacked"
 After enabling Developer mode, you will see additional options.<br/>
 Click on the "Load unpacked" button.<br/>
 
-![alt text](/docs/images/image-2.png)<br/>
+![alt text](docs/images/image-2.png)<br/>
 
 7. Select Extension Folder<br/>
 A file dialog will appear. Navigate to the folder where your locally hosted extension is located, in this case "gohorse-chrome-extension" folder<br/>
 Select the folder containing your extension and click "Select Folder" or "Open."<br/>
-![alt text](/docs/images/image-3.png)<br/>
+![alt text](docs/images/image-3.png)<br/>
 
 8. Now you should see the "MVP for Sitecore<br/>
 You will see the following Fields "OpenIA Key" and "model" Type your OpenAPI Key and click "Save"<br/>
-![alt text](/docs/images/image-9.png)<br/>
+![alt text](docs/images/image-9.png)<br/>
 
 ⟹if you don't have an API KEY , click on the document below <br/>
 - [Creating API Key instructions](CreatingAPIkey.md)<br/>
 
 9. Make sure you can see the module listed on chrome extensions page<br/>
-![alt text](/docs/images/image-10.png)<br/>
+![alt text](docs/images/image-10.png)<br/>
 
 10. Permanently add the extension to your toolbar.<br/>
 Once you click "Extension button" add add the "MVP Pinny for Sitecore"(By Go Horse), <br/>
 you will see the plugin on your bar<br/>
-There is also another option to open (CTRL+SHIFT+H)<br/>
- ![alt text](/docs/images/image-8.png)<br/>
+ ![alt text](docs/images/image-8.png)<br/>
 
 ### Configuration
 The critical setup involves the selection of both the "OpenAI Key" and the "model." However, there were already configured in previous steps<br> If necessary, these selections can be modified by right-clicking on the "Mvp Pinny" logo in the Extensions bar and selecting options.
 
 ## Usage instructions
-1. Open Sitecore ex: https://cm.chick-fil-a.com.localhost<br/>
-2. Click CTRL + SHIFT + H or Click Extensions, on the "Go-Horse-Icon"<br/>
+1. Open Sitecore ex: https://portal.sitecorecloud.io<br/>
+2. Click Extensions, on the "Go-Horse-Icon"<br/>
 3. Mouse over the selected function or type or questions<br/>
+![alt text](docs/images//mvppinny.png)
+
 
 ## Comments
 The Go Horse team presents an innovative solution with their Chrome extension module for content editors working with Sitecore. This tool, serving as a chat assistant, seamlessly integrates artificial intelligence, specifically MVP Pinny, to provide comprehensive support for Sitecore functionalities. The installation process is user-friendly, with step-by-step instructions and visual aids. Additionally, the configuration and usage instructions are well-documented, ensuring a smooth experience for content authors. Overall, the Go Horse team showcases a well-designed and practical solution for enhancing the efficiency of content editing in Sitecore.
