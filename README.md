@@ -38,13 +38,13 @@
 3.  Open Google Chrome
 
 4.  Navigate to the Chrome Extensions Management Page <br/>
-In the address bar, type
+In the address bar, type the expression below and press Enter.
 ```extensions
 chrome://extensions/
 ```
-and press Enter.<br/>
+<br/>
 
-6. Enable Developer Mode<br/>
+5. Enable Developer Mode<br/>
 In the top-right corner of the Extensions page, toggle the "Developer mode"<br/>
 switch to the ON position.<br/>
 
