@@ -13,10 +13,10 @@
 
 ## Description
   - Module Purpose: 
-    - AI chat assistant specifically designed for Sitecore users. Its primary purpose is to facilitate a comprehensive understanding of Sitecore features on the fly. Users can inquire about anything they see on screen, and the answers are powered by MVPinny, an AI model specialized in Sitecore.
+    - AI chat assistant specifically designed for Sitecore users. Its primary purpose is to facilitate a comprehensive understanding of Sitecore features on the fly. Users can inquire about anything they see on screen, and the answers are powered by [MVPinny](https://chat.openai.com/g/g-8NSb6qjd6-mvpinny), an AI model specialized in Sitecore.
 
   - How it works
-    - A Chrome extension that assists content editors by integrating Sitecore with the MVPinny chatbot. It aids content authors by directly delivering answers to their questions.
+    - A Chrome extension that assists content editors by integrating Sitecore with the [MVPinny](https://chat.openai.com/g/g-8NSb6qjd6-mvpinny) chatbot. It aids content authors by directly delivering answers to their questions.
 
 ## Video link
 
@@ -104,7 +104,7 @@ The critical setup involves the selection of both the "OpenAI Key" and the "mode
 
 
 ## Comments
-The Go Horse team presents an innovative solution with our Chrome extension module for Sitecore. Serving as a chat assistant, this tool seamlessly integrates the MVPinny chatbot with the Sitecore UI, providing  comprehensive support for Sitecore functionalities. The installation process is user-friendly, with step-by-step instructions and visual aids. Additionally, the configuration and usage instructions are well-documented, ensuring a smooth experience for content authors. Overall, the Go Horse team showcases a well-designed and practical solution to make Sitecore more user-friendly and enhance the efficiency of content editors in Sitecore.
+The Go Horse team presents an innovative solution with our Chrome extension module for Sitecore. Serving as a chat assistant, this tool seamlessly integrates the [MVPinny](https://chat.openai.com/g/g-8NSb6qjd6-mvpinny) chatbot with the Sitecore UI, providing  comprehensive support for Sitecore functionalities. The installation process is user-friendly, with step-by-step instructions and visual aids. Additionally, the configuration and usage instructions are well-documented, ensuring a smooth experience for content authors. Overall, the Go Horse team showcases a well-designed and practical solution to make Sitecore more user-friendly and enhance the efficiency of content editors in Sitecore.
 
 
 ⟹ [Meet MVPinny online (Requires a ChatGPT 4 account)](https://chat.openai.com/g/g-8NSb6qjd6-mvpinny)
