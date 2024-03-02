@@ -86,11 +86,13 @@ The critical setup involves the selection of both the "OpenAI Key" and the "mode
 
 ## Usage instructions
 
-1. Open Sitecore ex: https://cm.sitecore.com.localhost or XM Cloud https://portal.sitecorecloud.io<br/>
+1. Open your Sitecore CM instance - Eg: https://cm.sitecore.com.localhost or XM Cloud https://portal.sitecorecloud.io <br/>
 
-2. Click Extensions, on the "Go-Horse-Icon"<br/>
+2. Browse the page you want to learn more, then click the Go Horse icon
 
-3. Mouse over the selected function or type or questions<br/>
+3. Hover over and click the block that you want to learn details - MVPinny opens in a side panel, providing more details and a list of common questions
+   
+4. You can click one of the questions listed, or type your question to see it responded
 
 ![alt text](docs/images/FlipCard4-1.gif)
 
