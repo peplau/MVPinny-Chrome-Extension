@@ -59,6 +59,7 @@ A file dialog will appear. Navigate to the folder where your locally hosted exte
 ![alt text](docs/images/image-3.png)
 
 
+
 8. Now you should see the "MVP for Sitecore Settings"
 
 Fill the "OpenIA Key" field with your OpenAI API Key, select the "model", then click "Save"
@@ -71,15 +72,17 @@ Fill the "OpenIA Key" field with your OpenAI API Key, select the "model", then c
 ⟹ To use the model "gpt-4" your OpenAI account must support ChatGPT 4. If it doesn't, try using the model "gpt-3.5-turbo"
 
 
+
 9. Make sure you can see the module listed on the Chrome Extensions page
 ![alt text](docs/images/image-10.png)
+
 
 10. For your convenience, pin the extension to your toolbar.
 
  ![alt text](docs/images/image-8.png)
 
-### Configuration
-The critical setup involves the selection of both the "OpenAI Key" and the "model." However, they were already configured in previous steps.<br> If necessary, these selections can be modified by right-clicking on the "MVPinny" logo in the Extensions bar and selecting Options.
+## Configuration
+The critical setup involves the selection of both the "OpenAI Key" and the "model", already configured in previous steps. These selections can be modified by **right-clicking** on the MVPinny logo in the Extensions bar and selecting Options.
 
 ![Options](docs/images/Options.png)
 
