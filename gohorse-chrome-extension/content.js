@@ -1,4 +1,5 @@
 chrome.runtime.onMessage.addListener((data, sender) => {
+console.log("HelllouuuuuuuuUU");
     if (data.message === "actionClickedInSitecore")
         toggleHover();
 });
