@@ -64,6 +64,7 @@ Fill the "OpenIA Key" field with your OpenAI API Key, and select the "model", th
 
 ⟹ If you don't have an API KEY, click on the document below <br/>
 - [Creating API Key instructions](CreatingAPIkey.md)<br/>
+
 ⟹ Your OpenAI account must support the gpt-4, if it doesn't select the gtp-3.5
 
 9. Make sure you can see the module listed on chrome extensions page<br/>
