@@ -28,23 +28,8 @@
 - Compatible with any Sitecore version
 
 ## Installation instructions
-⟹ Write a short clear step-wise instruction on how to install your module.  
 
-> _A simple well-described installation process is required to win the Hackathon._  
-> Feel free to use any of the following tools/formats as part of the installation:
-> - Sitecore Package files
-> - Docker image builds
-> - Sitecore CLI
-> - msbuild
-> - npm / yarn
-> 
-> _Do not use_
-> - TDS
-> - Unicorn
- 
-for example:
-
-1. Install Chrome Browser
+ 1. Install Chrome Browser
 2. Download the GoHorse Chrome Extension on the url below 
  "https://github.com/Sitecore-Hackathon/2024-Go-Horse/tree/main/gohorse-chrome-extension" your local
 3.  Open Google Chrome
@@ -53,15 +38,21 @@ Launch the Google Chrome browser on your computer.
 In the address bar, type "chrome://extensions/" and press Enter.
 5. Enable Developer Mode
 In the top-right corner of the Extensions page, toggle the "Developer mode" switch to the ON position.
+![alt text](image-1.png)
 6. Locate and Click "Load Unpacked"
 After enabling Developer mode, you will see additional options.
 Click on the "Load unpacked" button.
+![alt text](image-2.png)
 7. Select Extension Folder
 A file dialog will appear. Navigate to the folder where your locally hosted extension is located.
 Select the folder containing your extension and click "Select Folder" or "Open."
+![alt text](image-3.png)
 8. Now you should see the "MVP for Sitecore
 You will see the following Fields "OpenIA Key" and "model" Type your OpenAPI Key and click "Save"
 ![alt text](image.png)
+
+if you don't have an API KEY , click on the document below 
+- [Creating API Key instructions](CreatingAPIkey.md)
 ### Configuration
 ⟹ If there are any custom configuration that has to be set manually then remember to add all details here.
 
