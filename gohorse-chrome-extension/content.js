@@ -1,8 +1,16 @@
+chrome.runtime.onMessage.addListener((data, sender) => {
+    if (data.message === "actionClicked")
+        toggleHover();
+    else
+        console.log('NO');
+});
+
 /* 
 -------------
 CLICK HANDLER 
 -------------
 */
+
 document.addEventListener(
     "click",
     function (event) {
@@ -60,7 +68,8 @@ function toggleHoverOnShortcut(event) {
     if (event.ctrlKey && event.shiftKey && event.key === "H")
         toggleHover(event);
 }
-function toggleHover(event) {
+
+function toggleHover() {
     // Toggle the activation state
     isHoverFeatureActive = !isHoverFeatureActive;
 
@@ -68,8 +77,11 @@ function toggleHover(event) {
     if (isHoverFeatureActive)
         alert("Select the element you want to learn more");
 }
+
+console.log('Adding chrome.action.onClicked.addListener');
+
 // Listen for keydown events on the entire document
-document.addEventListener("keydown", toggleHoverOnShortcut, false);
+// document.addEventListener("keydown", toggleHoverOnShortcut, false);
 
 /* 
 ---------------------------

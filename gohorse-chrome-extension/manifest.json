@@ -17,7 +17,6 @@
       }
     ],
     "action": {
-      "default_popup": "options.html",
       "default_icon": {
         "16": "images/icon-16.png",
         "128": "images/icon-128.png"

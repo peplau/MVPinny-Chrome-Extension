@@ -25,3 +25,17 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
         chrome.sidePanel.open({ tabId: sender.tab.id });
     }
 });
+
+chrome.action.onClicked.addListener(function (tab) {
+    var isSitecoreWebsite = tab.url && tab.url.includes("sitecorecloud.io");
+
+    if (isSitecoreWebsite) {
+        chrome.tabs.sendMessage(tab.id, {
+            message: "actionClicked",
+            options: {}
+        });
+    }
+    else {
+        console.log('Only works on Sitecore websites');
+    }
+});
