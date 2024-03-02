@@ -55,11 +55,15 @@ switch to the ON position.<br/>
 ![alt text](docs/images/image-2.png)<br/>
 
 7. Select Extension Folder<br/>
+
 A file dialog will appear. Navigate to the folder where your locally hosted extension is located, navigate to the "gohorse-chrome-extension", then click "Select Folder" or "Open."<br/>
+
 ![alt text](docs/images/image-3.png)<br/>
 
 8. Now you should see the "MVP for Sitecore Settings"<br/>
+
 Fill the "OpenIA Key" field with your OpenAI API Key, and select the "model", then click "Save"<br/>
+
 ![alt text](docs/images/image-9.png)<br/>
 
 ⟹ If you don't have an API KEY, click on the document below <br/>
@@ -70,9 +74,10 @@ Fill the "OpenIA Key" field with your OpenAI API Key, and select the "model", th
 9. Make sure you can see the module listed on chrome extensions page<br/>
 ![alt text](docs/images/image-10.png)<br/>
 
-10. For your convenience, pin the extension to your toolbar.<br/>
-Once you click "Extension button" add the "MVP Pinny for Sitecore"(By Go Horse), <br/>
+10. For your convenience, pin the extension to your toolbar. Once you click "Extension button" add the "MVP Pinny for Sitecore"(By Go Horse), <br/>
+
 you will see the plugin on your bar<br/>
+
  ![alt text](docs/images/image-8.png)<br/>
 
 ### Configuration
@@ -88,6 +93,7 @@ The critical setup involves the selection of both the "OpenAI Key" and the "mode
 2. Click Extensions, on the "Go-Horse-Icon"<br/>
 
 3. Mouse over the selected function or type or questions<br/>
+
 ![alt text](docs/images/FlipCard4-1.gif)
 
 
