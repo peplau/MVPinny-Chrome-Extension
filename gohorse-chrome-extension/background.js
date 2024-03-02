@@ -31,11 +31,14 @@ chrome.action.onClicked.addListener(function (tab) {
 
     if (isSitecoreWebsite) {
         chrome.tabs.sendMessage(tab.id, {
-            message: "actionClicked",
+            message: "actionClickedInSitecore",
             options: {}
         });
     }
     else {
-        console.log('Only works on Sitecore websites');
+        chrome.tabs.sendMessage(tab.id, {
+            message: "actionClickedNotSitecore",
+            options: {}
+        });
     }
 });
