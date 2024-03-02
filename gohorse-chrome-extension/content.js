@@ -29,8 +29,7 @@ document.addEventListener(
 
 function getContext(element) {
     // Get URL
-    var context =
-        "URL: " + document.location.href.replace(document.location.origin, "");
+    var context = "URL: " + document.location.href;
 
     // Get clicked element text
     var text = element.outerText || element.textContent;
