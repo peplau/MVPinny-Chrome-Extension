@@ -1,19 +1,31 @@
 var currentContext;
 var apiKey;
 var myModel;
-var globalInstructions = "";
 const endpoint = "https://api.openai.com/v1/chat/completions";
 
+// General instructions for ChatGPT
+var globalInstructions =
+    "You are a Sitecore XP/XM/XM Cloud and you will provide useful answers. ";
+globalInstructions += "Always direct to the user in 1st person.";
+globalInstructions +=
+    "Be assertive, don't say things like 'based on the content or url provided', or 'it seems'. ";
+globalInstructions += "Be direct, don't start with 'Sure' or 'Of course'. ";
+globalInstructions +=
+    "Don't use superlatives or adjectives, such as 'powerful'. ";
+
+/*
+----------------
+Loads Side Panel
+----------------
+*/
 window.onload = () => {
     loadSidePanel();
 };
-
 chrome.runtime.onMessage.addListener((data) => {
-    if (data.message == "openGtpSidePanel")
-    {
+    if (data.message == "openGtpSidePanel") {
         loadSidePanel();
     }
-})
+});
 
 function loadSidePanel() {
     chrome.storage.sync.get("apiKey", function (data) {
@@ -23,28 +35,25 @@ function loadSidePanel() {
         myModel = data.model;
     });
 
-    document.getElementById("content").innerHTML = '';
+    document.getElementById("content").innerHTML = "";
+
+    var message = "Provide a quick information about the context.";
+    message +=
+        "After that break a line and return javascript array of strings with 5 common doubts a user might have to this context. ";
+    message +=
+        "\n Skip from the information to array without any context, don't use 'Here are the common doubts' or similar intro.";
 
     chrome.storage.local.get("context", (result) => {
         currentContext = result.context;
-        var message = "Provide a quick information about the context.";
-        message +=
-            "After that break a line and return javascript array of strings with 5 common doubts a user might have to this context. ";
-        message +=
-            "\n Skip from the information to array without any context, don't use 'Here are the common doubts' or similar intro.";
         callChatGPT(currentContext, message, true);
     });
-
-    globalInstructions =
-        "You are a Sitecore XP/XM/XM Cloud and you will provide useful answers. ";
-    globalInstructions += "Always direct to the user in 1st person.";
-    globalInstructions +=
-        "Be assertive, don't say things like 'based on the content or url provided', or 'it seems'. ";
-    globalInstructions += "Be direct, don't start with 'Sure' or 'Of course'. ";
-    globalInstructions +=
-        "Don't use superlatives or adjectives, such as 'powerful'. ";
 }
 
+/*
+-----------------------------
+Gets information from ChatGPT
+-----------------------------
+*/
 function callChatGPT(context, message, firstLoad) {
     createLoader();
 
@@ -130,6 +139,7 @@ function callChatGPT(context, message, firstLoad) {
                 container.appendChild(document.createElement("hr"));
             }
 
+            // Scroll to the bottom
             container.scrollTop = container.scrollHeight;
         })
         .catch((error) => {
@@ -137,7 +147,11 @@ function callChatGPT(context, message, firstLoad) {
         });
 }
 
-// Manage anchor clicks to answer doubts
+/*
+-------------------------------------
+Manage anchor clicks to answer doubts
+-------------------------------------
+*/
 document.addEventListener("click", function (event) {
     if (event.target && event.target.matches(".doubt-link")) {
         var question = event.target.innerText;
@@ -145,6 +159,23 @@ document.addEventListener("click", function (event) {
     }
 });
 
+/*
+--------------------------
+Send question from textbox
+--------------------------
+*/
+document.getElementById("submit-button").addEventListener("click", () => {
+    var questionBox = document.getElementById("question");
+    var question = questionBox.value;
+    questionBox.value = "";
+    callChatGPT(currentContext, question, false);
+});
+
+/*
+-------------
+Create loader 
+-------------
+*/
 function createLoader() {
     // Create the container div
     var loaderContainer = document.createElement("div");
@@ -164,11 +195,3 @@ function createLoader() {
     container.appendChild(loaderContainer);
     container.scrollTop = container.scrollHeight;
 }
-
-// Send question from textbox
-document.getElementById("submit-button").addEventListener("click", () => {
-    var questionBox = document.getElementById("question");
-    var question = questionBox.value;
-    questionBox.value = "";
-    callChatGPT(currentContext, question, false);
-});

@@ -1,14 +1,22 @@
+/*
+------------------------------------------------------
+Pre-populate fields if settings are already configured
+------------------------------------------------------
+*/
 window.onload = (event) => {
     chrome.storage.sync.get("apiKey", function (data) {
-        if (data.apiKey)
-            document.getElementById("apiKey").value = data.apiKey
+        if (data.apiKey) document.getElementById("apiKey").value = data.apiKey;
     });
     chrome.storage.sync.get("model", function (data) {
-        if (data.model)
-            document.getElementById("model").value = data.model
+        if (data.model) document.getElementById("model").value = data.model;
     });
 };
 
+/*
+------------------------
+Save settings to storage
+------------------------ 
+*/
 document.getElementById("saveButton").addEventListener("click", function () {
     var selectElement = document.getElementById("model");
     var selectedOption = selectElement.options[selectElement.selectedIndex];

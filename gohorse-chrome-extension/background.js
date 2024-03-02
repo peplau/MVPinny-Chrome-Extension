@@ -1,3 +1,8 @@
+/*
+------------------------------------------------
+Call the configuration screen after installation
+------------------------------------------------
+*/
 chrome.runtime.onInstalled.addListener(function (details) {
     if (details.reason === "install") {
         chrome.storage.sync.get("apiKey", function (data) {
@@ -11,6 +16,11 @@ chrome.runtime.onInstalled.addListener(function (details) {
     }
 });
 
+/*
+-----------------------------
+Opens the sidebar after click
+-----------------------------
+*/
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     if (request.action === "openSidePanel" && sender.tab) {
         chrome.storage.local.set({
@@ -23,13 +33,11 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
             enabled: true,
         });
 
-        chrome.sidePanel.open({ tabId: sender.tab.id },
-            () => {
-                chrome.runtime.sendMessage({
-                    message: "openGtpSidePanel"
-                })
-            }
-        );
+        chrome.sidePanel.open({ tabId: sender.tab.id }, () => {
+            chrome.runtime.sendMessage({
+                message: "openGtpSidePanel",
+            });
+        });
     }
 });
 
@@ -41,7 +49,9 @@ chrome.action.onClicked.addListener(function (tab) {
 });
 
 /*
+----------------------------------------
 Disable extension for non-Sitecore pages
+----------------------------------------
 */
 function updateIconBasedOnUrl(tabId, changeInfo, tab) {
     // Define your URL patterns here

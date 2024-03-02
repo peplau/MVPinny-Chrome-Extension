@@ -1,14 +1,8 @@
-chrome.runtime.onMessage.addListener((data, sender) => {
-    if (data.message === "actionClickedInSitecore")
-        toggleHover();
-});
-
 /* 
 -------------
 CLICK HANDLER 
 -------------
 */
-
 document.addEventListener(
     "click",
     function (event) {
@@ -33,6 +27,7 @@ document.addEventListener(
     true
 );
 
+// Gets the user context where the user clicked
 function getContext(element) {
     // Get URL
     var context = "URL: " + document.location.href;
@@ -75,6 +70,10 @@ function toggleHover() {
     if (isHoverFeatureActive)
         alert("Select the element you want to learn more");
 }
+
+chrome.runtime.onMessage.addListener((data, sender) => {
+    if (data.message === "actionClickedInSitecore") toggleHover();
+});
 
 /* 
 ---------------------------
