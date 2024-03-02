@@ -87,8 +87,7 @@ The critical setup involves the selection of both the "OpenAI Key" and the "mode
 2. Click Extensions, on the "Go-Horse-Icon"<br/>
 
 3. Mouse over the selected function or type or questions<br/>
-![alt text](docs/images/sitecore10.png)
-![alt text](docs/images//mvppinny.png)
+![alt text](docs/images/FlipCard4-1.gif)
 
 
 ## Comments
