@@ -27,7 +27,7 @@
 ## Pre-requisites and Dependencies
 
 - Chrome Browser 
-- Compatible with any Sitecore version
+- Compatible with any Sitecore version (XP, XM and XM Cloud)
 
 ## Installation instructions
 
