@@ -20,7 +20,9 @@
 
 ## Video link
 
-⟹ [Video: MVPinny for Sitecore](https://youtu.be/qqNU4hXIuP0)
+⟹ [Video: MVPinny for Sitecore (normal speed - 4.5 min)](https://youtu.be/qqNU4hXIuP0)
+⟹ [Video: MVPinny for Sitecore (fast - under 3 min)](https://youtu.be/pcn1ipzjqQs)
+
 
 ## Compatibility
 
