@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#content {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#footer {
+    padding: 10px;
+}
+textarea {
+    width: calc(100% - 20px); /* Adjust width for padding */
+    height: 100px; /* Set the height of the textarea */
+    margin-bottom: 10px;
+}
+#submit-button {
+    width: 100%;
+}
+#header {
+    display: flex;
+    align-items: center; /* Align image and text vertically */
+}
+#mvpinny-icon {
+    margin-right: 10px; /* Add some space between the image and the text */
+}
+#loader {
+    height: 50px;
+}
+#loader-container{
+    display: flex;
+    justify-content: center;    
+}
