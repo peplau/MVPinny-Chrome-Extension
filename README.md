@@ -21,10 +21,7 @@
 ## Video link
 ⟹ Provide a video highlighting your Hackathon module submission and provide a link to the video. You can use any video hosting, file share, or even upload the video to this repository. _Just remember to update the link below_
 
-⟹ [Video: MVPinny for Sitecore]([https://youtu.be/mPGGNcIrB_s](https://youtu.be/qqNU4hXIuP0))
-
-⟹ [Video: Personalize Connector for XM Cloud](https://youtu.be/mPGGNcIrB_s)
-
+⟹ [Video: MVPinny for Sitecore](https://youtu.be/qqNU4hXIuP0)
 
 ## Pre-requisites and Dependencies
 
