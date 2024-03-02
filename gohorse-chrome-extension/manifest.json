@@ -11,6 +11,7 @@
       {
         "matches": [
           "*://*/*/sitecore/*",
+          "*://*/sitecore/*",
           "*://*.sitecorecloud.io/*"
         ],
         "js": ["content.js"]
