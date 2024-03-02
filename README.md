@@ -8,11 +8,11 @@
 ## Description
 ⟹ Write a clear description of your hackathon entry.  
 
-  - Module Purpose
-  - What problem was solved (if any)
-    - How does this module solve it
+  - Module Purpose : 
+  This tool serves as a chat assistant specifically designed for content editors working with Sitecore. Its primary purpose is to facilitate a comprehensive understanding of Sitecore buttons and functionalities. Users can inquire about any aspect, and it is seamlessly connected to MVP Pinny, an AI model specialized in Sitecore, skillfully developed by the Go Horse Team.
 
-_You can alternately paste a [link here](#docs) to a document within this repo containing the description._
+  - How it works
+    - This Chrome extension module resolves and supports content editors by seamlessly integrating Sitecore with artificial intelligence. It aids content authors by directly delivering answers to their questions.
 
 ## Video link
 ⟹ Provide a video highlighing your Hackathon module submission and provide a link to the video. You can use any video hosting, file share or even upload the video to this repository. _Just remember to update the link below_
@@ -20,16 +20,12 @@ _You can alternately paste a [link here](#docs) to a document within this repo c
 ⟹ [Replace this Video link](#video-link)
 
 
-
 ## Pre-requisites and Dependencies
 
 ⟹ Does your module rely on other Sitecore modules or frameworks?
 
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
-
-_Remove this subsection if your entry does not have any prerequisites other than Sitecore_
+- Chrome Browser 
+- Compatible with any Sitecore version
 
 ## Installation instructions
 ⟹ Write a short clear step-wise instruction on how to install your module.  
