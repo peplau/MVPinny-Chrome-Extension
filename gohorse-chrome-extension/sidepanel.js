@@ -1,9 +1,13 @@
 var currentContext;
 var apiKey;
+var myModel;
 const endpoint = "https://api.openai.com/v1/chat/completions";
 
 chrome.storage.sync.get("apiKey", function (data) {
     apiKey = data.apiKey;
+});
+chrome.storage.sync.get("model", function (data) {
+    myModel = data.model;
 });
 
 chrome.storage.local.get("context", (result) => {
@@ -39,7 +43,7 @@ function callChatGPT(context, message, firstLoad) {
     systemMessage += "User context: " + context;
 
     const requestData = {
-        model: "gpt-4",
+        model: myModel,
         messages: [
             { role: "system", content: systemMessage },
             { role: "user", content: message },
