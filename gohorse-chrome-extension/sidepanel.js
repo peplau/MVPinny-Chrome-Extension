@@ -30,8 +30,6 @@ globalInstructions +=
     "Don't use superlatives or adjectives, such as 'powerful'. ";
 
 function callChatGPT(context, message, firstLoad) {
-    alert("context: " + context + " - message: " + message);
-
     createLoader();
 
     const headers = {
