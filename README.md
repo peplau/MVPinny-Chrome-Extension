@@ -46,15 +46,18 @@ switch to the ON position.
 
 ![alt text](docs/images/image-1.png)
 
+
 6. Click on the "Load unpacked" button.
 
 ![alt text](docs/images/image-2.png)
+
 
 7. Select Extension Folder
 
 A file dialog will appear. Navigate to the folder where your locally hosted extension is located, navigate to the "gohorse-chrome-extension", then click "Select Folder" or "Open."
 
 ![alt text](docs/images/image-3.png)
+
 
 8. Now you should see the "MVP for Sitecore Settings"
 
@@ -65,7 +68,8 @@ Fill the "OpenIA Key" field with your OpenAI API Key, select the "model", then c
 ⟹ If you don't have an API KEY, click on the document below 
 - [Creating API Key instructions](CreatingAPIkey.md)
 
-⟹ To use model "gpt-4", your OpenAI account must support ChatGPT 4. If it doesn't, you can use the model "gpt-3.5-turbo"
+⟹ To use the model "gpt-4" your OpenAI account must support ChatGPT 4. If it doesn't, try using the model "gpt-3.5-turbo"
+
 
 9. Make sure you can see the module listed on the Chrome Extensions page
 ![alt text](docs/images/image-10.png)
