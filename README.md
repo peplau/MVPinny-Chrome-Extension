@@ -1,4 +1,4 @@
-# MVPinny for Sitecore
+# [MVPinny](https://chat.openai.com/g/g-8NSb6qjd6-mvpinny) for Sitecore
 
 ## Team name
 ⟹ **Go Horse**
