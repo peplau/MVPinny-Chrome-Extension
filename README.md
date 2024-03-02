@@ -28,25 +28,49 @@
 - Compatible with any Sitecore version
 
 ## Installation instructions
-⟹ Write a short clear step-wise instruction on how to install your module.  
 
-> _A simple well-described installation process is required to win the Hackathon._  
-> Feel free to use any of the following tools/formats as part of the installation:
-> - Sitecore Package files
-> - Docker image builds
-> - Sitecore CLI
-> - msbuild
-> - npm / yarn
-> 
-> _Do not use_
-> - TDS
-> - Unicorn
- 
-for example:
+1. Install Chrome Browser
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ...
-3. profit
+2. Download the GoHorse Chrome Extension on the url below <br/>
+https://github.com/Sitecore-Hackathon/2024-Go-Horse/tree/main/gohorse-chrome-extension" your local
+
+3.  Open Google Chrome <br/>
+Launch the Google Chrome browser on your computer.
+
+4.  Navigate to the Chrome Extensions Management Page <br/>
+In the address bar, type "chrome://extensions/" and press Enter.
+
+5. Enable Developer Mode<br/>
+In the top-right corner of the Extensions page, toggle the "Developer mode"<br/>
+switch to the ON position.<br/>
+
+![alt text](/docs/images/image-1.png)
+
+6. Locate and Click "Load Unpacked"
+After enabling Developer mode, you will see additional options.<br/>
+Click on the "Load unpacked" button.<br/>
+
+![alt text](/docs/images/image-2.png)
+
+7. Select Extension Folder<br/>
+A file dialog will appear. Navigate to the folder where your locally hosted extension is located.<br/>
+Select the folder containing your extension and click "Select Folder" or "Open."<br/>
+![alt text](/docs/images/image-3.png)
+
+8. Now you should see the "MVP for Sitecore<br/>
+You will see the following Fields "OpenIA Key" and "model" Type your OpenAPI Key and click "Save"<br/>
+![alt text](/docs/images/image-9.png)
+
+⟹if you don't have an API KEY , click on the document below <br/>
+- [Creating API Key instructions](CreatingAPIkey.md)
+
+9. Make sure you can see the module listed on chrome extensions page<br/>
+![alt text](/docs/images/image-10.png)
+
+10. Permanently add the extension to your toolbar.<br/>
+Once you click "Extension button" add add the "MVP Pinny for Sitecore"(By Go Horse), <br/>
+you will see the plugin on your bar<br/>
+ ![alt text](/docs/images/image-8.png)
 
 ### Configuration
 ⟹ If there are any custom configuration that has to be set manually then remember to add all details here.
@@ -55,18 +79,6 @@ _Remove this subsection if your entry does not require any configuration that is
 
 ## Usage instructions
 ⟹ Provide documentation about your module, how do the users use your module, where are things located, what do the icons mean, are there any secret shortcuts etc.
-
-Include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
-
-![Hackathon Logo](docs/images/hackathon.png?raw=true "Hackathon Logo")
-
-You can embed images of different formats too:
-
-![Deal With It](docs/images/deal-with-it.gif?raw=true "Deal With It")
-
-And you can embed external images too:
-
-![Random](https://thiscatdoesnotexist.com/)
 
 ## Comments
 If you'd like to make additional comments that is important for your module entry.
