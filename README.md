@@ -23,6 +23,8 @@
 
 ⟹ [Video: MVPinny for Sitecore]([https://youtu.be/mPGGNcIrB_s](https://youtu.be/qqNU4hXIuP0))
 
+⟹ [Video: Personalize Connector for XM Cloud](https://youtu.be/mPGGNcIrB_s)
+
 
 ## Pre-requisites and Dependencies
 
