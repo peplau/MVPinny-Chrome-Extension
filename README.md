@@ -32,20 +32,20 @@
 
 ## Installation instructions
 
-1. Browse to the MVPinny page in the Chrome Store - [](https://chromewebstore.google.com/detail/mvpinny-for-sitecore-by-g/jjkncpchdajdnoihacmjagedmbmgkbkp)
+1. Browse to the [MVPinny page in the Chrome Store](https://chromewebstore.google.com/detail/mvpinny-for-sitecore-by-g/jjkncpchdajdnoihacmjagedmbmgkbkp)
 
 2. Click on "Add to Chrome"
 
 3. Now you should see the "MVP for Sitecore Settings"
 
-Fill the "OpenIA Key" field with your OpenAI API Key, select the "model", then click "Save"
+    Fill the "OpenIA Key" field with your OpenAI API Key, select the "model", then click "Save"
 
-![alt text](docs/images/image-9.png)
+    ![alt text](docs/images/image-9.png)
 
-⟹ If you don't have an API KEY, click on the document below 
-- [Creating API Key instructions](CreatingAPIkey.md)
+    ⟹ If you don't have an API KEY, click on the document below 
+    - [Creating API Key instructions](CreatingAPIkey.md)
 
-⟹ To use the model "gpt-4" your OpenAI account must support ChatGPT 4. If it doesn't, try using the model "gpt-3.5-turbo"
+    ⟹ To use the model "gpt-4" your OpenAI account must support ChatGPT 4. If it doesn't, try using the model "gpt-3.5-turbo"
 
 
 4. Make sure you can see the module listed on the Chrome Extensions page
@@ -55,6 +55,7 @@ Fill the "OpenIA Key" field with your OpenAI API Key, select the "model", then c
 5. For your convenience, pin the extension to your toolbar.
 
  ![alt text](docs/images/image-8.png)
+
 
 ## Configuration
 The critical setup involves the selection of both the "OpenAI Key" and the "model", already configured in previous steps. These selections can be modified by **right-clicking** on the MVPinny logo in the Extensions bar and selecting Options.
