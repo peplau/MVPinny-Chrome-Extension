@@ -4,6 +4,14 @@ Pre-populate fields if settings are already configured
 ------------------------------------------------------
 */
 window.onload = (event) => {
+    var dropdown = document.getElementById("model");
+    models.forEach(function (model) {
+        var option = document.createElement("option");
+        option.value = model.Key;
+        option.textContent = model.Text;
+        dropdown.appendChild(option);
+    });
+
     chrome.storage.sync.get("apiKey", function (data) {
         if (data.apiKey) document.getElementById("apiKey").value = data.apiKey;
     });

@@ -23,20 +23,18 @@
         <div class="mb-3">
           <label for="apiKey" class="form-label">OpenAI API Key</label>
           <textarea class="form-control" id="apiKey"></textarea>
-          <div class="form-text">Charges may apply under your API Key.</div>
+          <div class="form-text"><a href="https://github.com/peplau/MVPinny-Chrome-Extension/blob/main/CreatingAPIkey.md" target="_blank">Learn how to get yours</a> (Charges may apply under your API Key)</div>
         </div>
         <div class="mb-3">
-          <select class="form-select" aria-label="Default select example" id="model">                      
-            <option value="gpt-4-turbo">gpt-4-turbo</option>
-            <option value="gpt-4">gpt-4</option>
-            <option value="gpt-3.5-turbo">gpt-3.5-turbo</option>
-          </select>        
+          <label for="model" class="form-label">Model to use</label>
+          <select class="form-select" id="model"></select>        
         </div>
         <button class="btn btn-primary" id="saveButton">Save</button>
       </form>
     </div>
   </div>
 
+  <script src="gpt-models.js"></script>
   <script src="options.js"></script>
 </body>
 

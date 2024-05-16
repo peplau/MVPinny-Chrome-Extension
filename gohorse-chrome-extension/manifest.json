@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "MVPinny for Sitecore (By Go Horse)",
-    "version": "1.0",
+    "version": "1.0.1",
     "permissions": ["activeTab", "storage", "tabs", "sidePanel"],
     "background": {
       "service_worker": "background.js"
